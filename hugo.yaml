@@ -1,6 +1,6 @@
 baseURL: https://blog.niima.cloud/
 languageCode: en-us
-title: My Personal Blog
+title: Nima`s Public Journal
 theme: ["PaperMod"]
 pagination.pagerSize: 10
 
@@ -16,8 +16,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  description: "Nima`s Public Journal made available for everyone for no reason."
+  keywords: [Blog, Journal]
   author: Nima Hashemi
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
