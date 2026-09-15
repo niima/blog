@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Selfishness on Nima`s Public Journal</title>
+    <link>http://localhost:1313/tags/selfishness/</link>
+    <description>Recent content in Selfishness on Nima`s Public Journal</description>
+    <image>
+      <title>Nima`s Public Journal</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jan 2025 15:45:15 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/selfishness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 02025 goals; Another attempt to plan ahead</title>
+      <link>http://localhost:1313/posts/2025-goals/</link>
+      <pubDate>Thu, 02 Jan 2025 15:45:15 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2025-goals/</guid>
+      <description>&lt;p&gt;I usually don&amp;rsquo;t plan ahead in my life, but when I do, I just ignore them and I do whatever pleases me at that specific moment.&lt;/p&gt;
+&lt;p&gt;But this time, I am gonna try to plan ahead, and I am gonna try to stick to it (yeh sure). I am gonna try to make 2025 a year of change (not really), a year of growth (Its biologically impossible in my age), a year of learning (this one is actually true), a year of new experiences (third day of the year and already happened), a year of new challenges (but not to challenging).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
