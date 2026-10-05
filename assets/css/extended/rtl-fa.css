@@ -1,0 +1,45 @@
+/* Persian/RTL overrides. Scoped so English (dir=ltr/auto) is unchanged. */
+
+@font-face {
+    font-family: Vazirmatn;
+    src: url("/fonts/Vazirmatn-Variable.woff2") format("woff2-variations"),
+        url("/fonts/Vazirmatn-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+html[dir="rtl"] body {
+    font-family: Vazirmatn, Tahoma, "Segoe UI", sans-serif;
+}
+
+html[dir="rtl"] .paginav .title {
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+html[dir="rtl"] .top-link {
+    right: auto;
+    left: 30px;
+}
+
+html[dir="rtl"] .copy-code {
+    right: auto;
+    left: 4px;
+}
+
+html[dir="rtl"] code,
+html[dir="rtl"] kbd,
+html[dir="rtl"] samp,
+html[dir="rtl"] pre,
+html[dir="rtl"] .highlight,
+html[dir="rtl"] .highlighttable {
+    direction: ltr;
+    text-align: left;
+    unicode-bidi: isolate;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html[dir="rtl"] :lang(en) {
+    unicode-bidi: isolate;
+}

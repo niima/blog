@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>نوشته‌ها on Nima`s Public Journal</title>
+    <link>https://blog.niima.cloud/fa/posts/</link>
+    <description>Recent content in نوشته‌ها on Nima`s Public Journal</description>
+    <image>
+      <title>Nima`s Public Journal</title>
+      <url>https://blog.niima.cloud/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.niima.cloud/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>fa</language>
+    <lastBuildDate>Mon, 05 Oct 2026 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.niima.cloud/fa/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>نسخهٔ فارسی دفترچه</title>
+      <link>https://blog.niima.cloud/fa/posts/farsi-section/</link>
+      <pubDate>Mon, 05 Oct 2026 18:00:00 +0000</pubDate>
+      <guid>https://blog.niima.cloud/fa/posts/farsi-section/</guid>
+      <description>&lt;p&gt;این نوشته فقط برای نسخهٔ فارسی است، نه ترجمهٔ پست‌های انگلیسی. English words inside این متن باید بدون به‌هم‌ریختن چیدمان بخوانند.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;یک نقل‌قول آزمایشی، تا حاشیهٔ راست‌به‌چپ بلوک‌نقل دیده شود.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;کد-نمونه&#34;&gt;کد نمونه&lt;/h2&gt;
+&lt;p&gt;قطعهٔ زیر باید چپ‌به‌راست بماند:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;(name):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;name&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;greet(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Nima&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

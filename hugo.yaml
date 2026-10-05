@@ -1,8 +1,10 @@
 baseURL: https://blog.niima.cloud/
-languageCode: en-us
 title: Nima`s Public Journal
 theme: ["PaperMod"]
 pagination.pagerSize: 10
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,10 +15,61 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-us
+    languageDirection: ltr
+    weight: 1
+    title: Nima`s Public Journal
+    params:
+      languageAltTitle: English
+      description: "Nima`s Public Journal made available for everyone for no reason."
+    menu:
+      main:
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+  fa:
+    languageName: فارسی
+    languageCode: fa
+    languageDirection: rtl
+    weight: 2
+    title: Nima`s Public Journal
+    params:
+      languageAltTitle: فارسی
+      description: "نسخهٔ فارسی دفترچهٔ عمومی نیما. نوشته‌های انگلیسی در نسخهٔ اصلی مانده‌اند؛ اینجا به‌مرور یادداشت‌های فارسی می‌آید."
+      DateFormat: "2 January 2006"
+      homeInfoParams:
+        Title: "نسخهٔ فارسی"
+        Content: |
+          اینجا نسخهٔ راست‌به‌چپ دفترچهٔ عمومی نیماست. نوشته‌های انگلیسی سر جایشان در [نسخهٔ English](/) مانده‌اند.
+          اگر کلمه‌ای انگلیسی وسط متن فارسی دیدید، قرار است همان‌طور بخوانیدش.
+    menu:
+      main:
+        - identifier: tags
+          name: برچسب‌ها
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: بایگانی
+          url: /archives/
+          weight: 30
+        - identifier: search
+          name: جستجو
+          url: /search/
+          weight: 40
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "Nima`s Public Journal made available for everyone for no reason."
   keywords: [Blog, Journal]
   author: Nima Hashemi
   # author: ["Me", "You"] # multiple authors
@@ -24,6 +77,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  displayFullLangName: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -57,18 +111,3 @@ params:
   #     url: "https://stackoverflow.com"
   #   - name: github
   #     url: "https://github.com/"
-
-menu:
-  main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    # - identifier: blog
-    #   name: blog.niima.cloud
-    #   url: https://blog.niima.cloud
-    #   weight: 30
